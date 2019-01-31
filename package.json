@@ -1,0 +1,30 @@
+{
+  "name": "learn-fullstack",
+  "version": "1.0.0",
+  "description": "Learning Full-stack Dev :Mongo DB, nodejs\u001b[D\u001b[D\u001b[D\u001b[C\u001b[\u001b[C\u001bjs\u001b[D\u001b[D\u001b[D\u001b[D\u001b[N\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C,React JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "author": "Nishank Samant",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.12.0",
+    "eslint-plugin-react": "^7.12.3",
+    "webpack": "^4.28.4"
+  }
+}
