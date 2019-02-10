@@ -2,11 +2,12 @@
         To include hrader and footer from separate files
 -->    
 <%- include('header') -%>
-    <%= Math.random() %>
     <br>
-    <!-- 
-        Received Content here and note the `-` instead of `=` which is used to escape the 
+    <!--
+        Received Content here   and note the `-` instead of `=` which is used to escape the 
         template hence to unescape use the `-`
     -->
-    <%- content %>
+    <div id='root'>
+        <%- content -%>
+    </div>
 <%- include('footer') -%>
