@@ -11,8 +11,10 @@
   "author": "Nishank Samant",
   "license": "GPL-3.0",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "mongodb": "^3.1.10",
+    "nodemon": "^1.18.10",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
