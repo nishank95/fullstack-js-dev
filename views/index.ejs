@@ -1,13 +1,14 @@
 <!-- 
         To include hrader and footer from separate files
 -->    
+<script type="text/javascript">
+    window.initialData = <%- JSON.stringify(initialData) -%>
+</script>
 <%- include('header') -%>
     <br>
     <!--
         Received Content here   and note the `-` instead of `=` which is used to escape the 
         template hence to unescape use the `-`
     -->
-    <div id='root'>
-        <%- content -%>
-    </div>
+    <div id='root'><%- initialMarkup -%></div>
 <%- include('footer') -%>

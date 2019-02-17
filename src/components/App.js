@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import ContestPreview from './ContestPreview' 
 import data from '../testData.json'
-
+import axios from 'axios'
 /* 
 //For stateless functionality use classless component
 const App = (props) =>{
@@ -23,15 +23,12 @@ class App extends React.Component {
         super(props);
         this.state = {
             pageHeader: 'Naming Contest',
-            contests: [] 
+            contests: this.props.initialContests 
         };
     }
 
     componentDidMount(){
-        // console.log(this.state.contests);
-        this.setState({
-            contests: data.contests
-        });
+        
     }
 
     render(){
