@@ -8,8 +8,8 @@ App.defaultProps = {
     headMessage: "Hello!"
 }; */
 
-ReactDOM.hydrate(
-    <App initialContests={window.initialData.contests}/>,
+ReactDOM.hydrate    (
+    <App initialData={ window.initialData }/>,
     document.getElementById('root')
 );
 
